@@ -1,12 +1,21 @@
-# React + Vite
+# Carrinho de compras da Beleza na Web
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Um teste que encontrei em um repositorio do GitHub, um teste de front-end.
 
-Currently, two official plugins are available:
+## Requisitos: 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+    * Pixel perfect - Tive dificuldade de olhar a distâncias de alguns componentes, mas acredito que cumpri com o requisito
+    * A aplicação precisa ser responsiva, utilizando o conceito de mobile-first - o que sempre faço com projetos com Tailwind e aqui não podia ser diferente, pois aprendi muito usando.
 
-## Expanding the ESLint configuration
+## Observações da empresa:
+    1. Carrinho:
+        - Consumir o endpoint e listar os itens, bem como o resumo. (Não consegui acessar o endpoint).
+    2. Pagamento:
+        - Exiba um form com campos de cartão de crédito com validação em cada campo;
+        - Habilite o botão de Finalizar Pedido apenas se o form estiver válido.
+    3. Sucesso:
+        - Todo o conteúdo deverá ser exibido a partir dos dados persistidos.
+    
+    Bônus:
+        - Fazer um array dos produtos, para exibi-los melhor e fazer a soma do carrinho.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
