@@ -5,6 +5,7 @@ import Sacola from './sacola.jsx'
 import Pagamento from './pagamento.jsx'
 import Confirmacao from './confirmacao.jsx'
 
+
 function App() {
   const [activeOption, setActiveOption] = useState('Sacola');
   const namesOption = ['Sacola', 'Pagamento', 'Confirmação'];
