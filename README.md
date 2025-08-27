@@ -19,3 +19,7 @@ Um teste que encontrei em um repositorio do GitHub, um teste de front-end.
 **Bônus:**
     - Fazer um array dos produtos, para exibi-los melhor e fazer a soma do carrinho.
 
+## Como comecei o projeto?
+
+
+
