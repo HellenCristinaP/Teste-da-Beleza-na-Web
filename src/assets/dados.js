@@ -28,6 +28,9 @@ const dadosUsuario = [
     }
 ]
 
+let frete = 5.30;
+let desconto = 30.00;
+
 const subtotal = () => {
     let subtotal = 0;
 
@@ -37,4 +40,4 @@ const subtotal = () => {
     return subtotal.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' });
 }
 
-export default { produtos, dadosUsuario, subtotal }
+export default { produtos, dadosUsuario, subtotal, frete, desconto}

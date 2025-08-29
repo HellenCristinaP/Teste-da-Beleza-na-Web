@@ -34,14 +34,14 @@ function App() {
         )}
       <footer className="bg-white px-5 pt-7 lg:border lg:border-[#CCCCCC] lg:rounded-[4px] lg:shadow-[0_2px_4px] lg:shadow-black/10 lg:mt-5 lg:h-fit">
         <div className="grid grid-cols-2 gap-2 pb-6">
-          <p>Produtos: (3) itens</p>
+          <p>Produtos: ({dados.produtos.length}) itens</p>
           <p className="place-self-end">R$ {dados.subtotal()}</p>
           <p>Frete</p>
-          <p className="place-self-end">R$ 5,30</p>
+          <p className="place-self-end">R$ {dados.frete.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'})}</p>
           <p>Desconto</p>
-          <p className="place-self-end text-[#9222DC] font-bold">R$ 30.00</p>
+          <p className="place-self-end text-[#9222DC] font-bold">R$ {dados.desconto.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'})}</p>
           <p className='font-bold'>Subtotal</p>
-          <p className="place-self-end font-bold">R$ {}</p>
+          <p className="place-self-end font-bold">R$ 600,10</p>
         </div>
         <button className="bg-[#9222DC] text-white font-bold rounded-sm text-lg py-2 w-full mb-7 cursor-pointer" onClick={() => setActiveOption('Pagamento')}>Seguir para o pagamento</button>
       </footer>
